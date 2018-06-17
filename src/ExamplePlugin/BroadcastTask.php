@@ -5,7 +5,7 @@ namespace ExamplePlugin;
 use pocketmine\scheduler\Task;
 use pocketmine\Server;
 
-class BroadcastPluginTask extends Task{
+class BroadcastTask extends Task{
 
 	/** @var Server */
 	private $server;
