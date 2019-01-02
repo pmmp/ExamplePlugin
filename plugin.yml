@@ -11,7 +11,7 @@ website: https://github.com/pmmp/ExamplePlugin
 commands:
  example:
   description: Example command
-  usage: "Usage: /example"
+  usage: "/example"
   permission: exampleplugin.command.example
 permissions:
  exampleplugin.command.example:
