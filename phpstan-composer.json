@@ -1,5 +1,5 @@
 {
-   "name": "pocketmine/phpstan-example-plugin",
+   "name": "pocketmine/phpstan-plugin-config",
    "require": {
       "phpstan/phpstan": "^0.12.18",
       "pocketmine/pocketmine-mp": "^3.0",
