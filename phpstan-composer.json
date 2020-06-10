@@ -10,11 +10,5 @@
       "psr-4": {
          "": "./src"
       }
-   },
-   "repositories": [
-      {
-         "type": "vcs",
-         "url": "https://github.com/pmmp/PocketMine-MP"
-      }
-   ]
+   }
 }
