@@ -32,7 +32,7 @@ class MainClass extends PluginBase{
 
 				return true;
 			default:
-				return false;
+				throw new \AssertionError("This line will never be executed");
 		}
 	}
 }
