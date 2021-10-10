@@ -32,7 +32,7 @@ jobs:
           restore-keys: "php-${{ matrix.php }}-composer-"
 
       - name: Install PHPStan Composer dependencies
-        run: COMPOSER=phpstan-composer.json composer install --prefer-dist --no-interaction
+        run: COMPOSER=phpstan-composer.json composer install --prefer-dist --no-interaction --ignore-platform-reqs
 
       - name: Run PHPStan
         run: vendor/bin/phpstan analyze
