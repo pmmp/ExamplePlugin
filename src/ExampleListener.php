@@ -29,8 +29,7 @@ use pocketmine\event\player\PlayerRespawnEvent;
 
 class ExampleListener implements Listener{
 
-	/** @var MainClass */
-	private $plugin;
+	private MainClass $plugin;
 
 	public function __construct(MainClass $plugin){
 		$this->plugin = $plugin;

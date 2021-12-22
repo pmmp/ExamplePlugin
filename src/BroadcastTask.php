@@ -9,8 +9,7 @@ use pocketmine\Server;
 
 class BroadcastTask extends Task{
 
-	/** @var Server */
-	private $server;
+	private Server $server;
 
 	public function __construct(Server $server){
 		$this->server = $server;
