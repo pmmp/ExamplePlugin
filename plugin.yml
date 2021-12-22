@@ -1,6 +1,7 @@
 #name, main, version and api are required
 name: ExamplePlugin
 main: ExamplePlugin\MainClass
+src-namespace-prefix: ExamplePlugin
 version: 1.2.0
 api: 4.0.0
 
