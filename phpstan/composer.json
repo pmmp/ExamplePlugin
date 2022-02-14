@@ -1,8 +1,8 @@
 {
    "name": "pocketmine/phpstan-plugin-config",
    "require": {
-      "phpstan/phpstan": "^1.2.0",
-      "pocketmine/pocketmine-mp": "4.0.0",
+      "phpstan/phpstan": "^1.0",
+      "pocketmine/pocketmine-mp": "^4.0",
       "phpstan/phpstan-strict-rules": "^1.0",
       "phpstan/extension-installer": "^1.0"
    },
